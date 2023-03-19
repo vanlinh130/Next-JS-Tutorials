@@ -18,7 +18,7 @@ function DashboardSWR() {
             <h2>Posts - {data.posts}</h2>
             <h2>Likes - {data.likes}</h2>
             <h2>Followers - {data.followers}</h2>
-            <h2>Following - {data.following}</h2>
+            <h2>Following - {data.following}</h2>   
         </div>
      );
 }
