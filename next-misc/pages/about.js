@@ -1,8 +1,15 @@
 import Footer from "@/components/Footer";
+import Head from "next/head";
 
 function About() {
     return ( 
-        <h1 className="content">About</h1>
+        <>
+            <Head>
+                <title>About CodeVolution</title>
+                <meta name="description" content="Fre Tutorials on web" />
+            </Head>
+            <h1 className="content">About</h1>
+        </>
      );
 }
 
